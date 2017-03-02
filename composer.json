@@ -1,6 +1,6 @@
 {
-    "name": "kavenegar/laravel",
-    "description": "laravel 4 and 5 kavenegar integration",
+    "name": "kavenegar/laravel-notification",
+    "description": "laravel notificatiion channel for Kavenegar",
     "type": "laravel-package",
     "keywords": ["laravel","kavenegar","sms","notificatiion","api"],
     "license": "MIT",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kavenegar\\Laravel\\": "src/"
+            "Kavenegar\\LaravelNotification\\": "src/"
         }
     }
 }

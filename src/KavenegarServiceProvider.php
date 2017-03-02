@@ -1,6 +1,6 @@
 <?php
 
-namespace Kavenegar\Laravel;
+namespace Kavenegar\LaravelNotification;
 
 use Kavenegar\KavenegarApi;
 use Illuminate\Support\ServiceProvider;

@@ -14,7 +14,7 @@ This package makes it easy to send [Kavenegar SMS notifications](http://kavenega
 You can install the package via composer:
 
 ``` bash
-composer require kavenegar/laravel
+composer require kavenegar/laravel-notification
 ```
 
 You must install the service provider:
@@ -23,7 +23,7 @@ You must install the service provider:
 // config/app.php
 'providers' => [
     ...
-    Kavenegar\Laravel\KavenegarServiceProvider::class,
+    Kavenegar\LaravelNotification\KavenegarServiceProvider::class,
 ],
 ```
 
