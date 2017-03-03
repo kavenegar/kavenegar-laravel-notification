@@ -1,5 +1,5 @@
 {
-    "name": "kavenegar/kavanegar-laravel-notification",
+    "name": "kavenegar/laravel-notification",
     "description": "laravel notificatiion channel for Kavenegar",
     "type": "laravel-package",
     "keywords": ["laravel","kavenegar","sms","notificatiion","api"],
