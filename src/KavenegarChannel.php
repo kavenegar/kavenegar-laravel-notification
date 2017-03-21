@@ -30,7 +30,7 @@ class KavenegarChannel
     {
         $sender = config('services.kavenegar.sender');
         $receptor = $notifiable->routeNotificationFor('sms');
-        $message = $notification->toSMS();
+        $message = $notification->toSMS($notifiable);
 
         $this->api->Send($sender, $receptor, $message);
     }
