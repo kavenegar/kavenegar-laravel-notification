@@ -23,7 +23,7 @@ You must install the service provider:
 // config/app.php
 'providers' => [
     ...
-    Kavenegar\LaravelNotification\KavenegarServiceProvider::class,
+    Kavenegar\Laravel\KavenegarServiceProvider::class,
 ],
 ```
 
