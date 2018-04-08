@@ -46,7 +46,7 @@ Add your Kavenegar Account Key and Sender Number (optional) to your `config/serv
 Now you can use the channel in your `via()` method inside the notification:
 
 ``` php
-use Kavenegar\Laravel\KavenegarChannel;
+use Kavenegar\LaravelNotification\KavenegarChannel;
 use Illuminate\Notifications\Notification;
 
 class HappyNewYear extends Notification
