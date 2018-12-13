@@ -63,7 +63,7 @@ class HappyNewYear extends Notification
 }
 ```
 
-In order to let your Notification know which phone number you are sending to, add the `routeNotificationForJusibe` method to your Notifiable model e.g your User Model
+In order to let your Notification know which phone number you are sending to, add the `routeNotificationForSms` method to your Notifiable model e.g your User Model
 
 ```php
 public function routeNotificationForSms()
