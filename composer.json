@@ -21,5 +21,13 @@
         "psr-4": {
             "Kavenegar\\LaravelNotification\\": "src/"
         }
+    },
+    "minimum-stability" : "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kavenegar\\LaravelNotification\\KavenegarServiceProvider"
+            ]
+        }
     }
 }
