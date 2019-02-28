@@ -46,7 +46,7 @@ Add your Kavenegar Account Key and Sender Number (optional) to your `config/serv
 Now you can use the channel in your `via()` method inside the notification:
 
 ``` php
-use Kavenegar\Laravel\KavenegarChannel;
+use Kavenegar\LaravelNotification\KavenegarChannel;
 use Illuminate\Notifications\Notification;
 
 class HappyNewYear extends Notification
@@ -63,7 +63,7 @@ class HappyNewYear extends Notification
 }
 ```
 
-In order to let your Notification know which phone number you are sending to, add the `routeNotificationForJusibe` method to your Notifiable model e.g your User Model
+In order to let your Notification know which phone number you are sending to, add the `routeNotificationForSms` method to your Notifiable model e.g your User Model
 
 ```php
 public function routeNotificationForSms()
@@ -75,3 +75,41 @@ public function routeNotificationForSms()
 ## Contributing
 
 Bug fixes, docs, and enhancements welcome! Please let us know <a href="mailto:support@kavenegar.com?Subject=SDK" target="_top">support@kavenegar.com</a>
+
+<hr> 
+<div dir='rtl'>
+	
+## راهنما
+
+### معرفی سرویس کاوه نگار
+
+کاوه نگار یک وب سرویس ارسال و دریافت پیامک و تماس صوتی است که به راحتی میتوانید از آن استفاده نمایید.
+
+### ساخت حساب کاربری
+
+اگر در وب سرویس کاوه نگار عضو نیستید میتوانید از [لینک عضویت](http://panel.kavenegar.com/client/membership/register) ثبت نام  و اکانت آزمایشی برای تست API دریافت نمایید.
+
+### مستندات
+
+برای مشاهده اطلاعات کامل مستندات [وب سرویس پیامک](http://kavenegar.com/وب-سرویس-پیامک.html)  به صفحه [مستندات وب سرویس](http://kavenegar.com/rest.html) مراجعه نمایید.
+
+### راهنمای فارسی
+
+در صورتی که مایل هستید راهنمای فارسی کیت توسعه کاوه نگار را مطالعه کنید به صفحه [کد ارسال پیامک](http://kavenegar.com/sdk.html) مراجعه نمایید.
+
+### اطالاعات بیشتر
+برای مطالعه بیشتر به صفحه معرفی
+[وب سرویس اس ام اس ](http://kavenegar.com)
+کاوه نگار
+مراجعه نمایید .
+
+ اگر در استفاده از کیت های سرویس کاوه نگار مشکلی یا پیشنهادی  داشتید ما را با یک Pull Request  یا  ارسال ایمیل به support@kavenegar.com  خوشحال کنید.
+ 
+##
+![http://kavenegar.com](http://kavenegar.com/public/images/logo.png)		
+
+[http://kavenegar.com](http://kavenegar.com)	
+
+</div>
+
+
